@@ -68,7 +68,7 @@ To get started all you need to do is to instanciate a Scss object after
 configuring the application::
 
   from flask import Flask
-  from flask.ext.scss import Scss
+  from flask_scss import Scss
 
   app = Flask(__name__)
   Scss(app)
